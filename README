@@ -1,0 +1,21 @@
+Homework 9 for
+the AI course
+in FMI 2017/2018
+
+Kmeans clusterization implementation.
+
+compilation tested with:
+Cygwingcc (version 5.4.0 (GCC))
+
+compile with flags "-std=c++11 -Wall -O3"
+
+to build with makefile execute:
+"make -f makefile"
+
+to run in console
+"./Kmeans K filename"
+
+
+data is written in "output.csv" with the C++ executable
+and graph is ploted with matplotlib
+If graph is not produced, call kMeans.py manually.
